@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+<BaseSetting BeLite="false" ProjectType="SylixOSKoProject" RealEvoVer="3.2.5 Ultimate"/>
+<OutputSetting>
+<OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+<OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+<OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+</OutputSetting>
+<UploadPath>
+<PairItem key="$(WORKSPACE_llt_lcd_module_new)\$(Output)\strip\llt_lcd_module_new.ko" value="/lib/modules/llt_lcd_module_new.ko"/>
+</UploadPath>
+<BuildSetting CoustomCfgMakefile="false" NeedReBuild="true" NotScanSourceFile="false"/>
+<DeviceSetting DevName="192.168.1.41" WorkDir="/lib/modules/llt_lcd_module_new"/>
+</SylixOSSetting>
